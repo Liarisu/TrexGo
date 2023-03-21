@@ -15,6 +15,7 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.6
 }
 .logo{
     font-size: 2.5rem;
+    margin-left: 3px;
 }
 .text1{
     color: rgb(2, 2, 2);
@@ -22,6 +23,7 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.6
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
   font-weight: bold;
+  font-family: 'Exo', sans-serif;
 }
 .text2{
     color: rgb(213, 219, 224);
@@ -29,6 +31,7 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.6
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-weight: bold;
+  font-family: 'Exo', sans-serif;
 }
 .container1{
     width: 100%;
@@ -68,7 +71,7 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.6
     font-weight: bold;
     color: rgb(213, 219, 224);
   -webkit-text-fill-color: rgb(255, 255, 255);
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
   font-weight: bold;
 }
@@ -109,9 +112,15 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.6
 .dyr{
     display: none;
 }
-
+nav{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.685) 100%);    
+}
 /* Telefon Ekran*/
-@media(max-width: 1200px) {
+@media screen {
+    
+}
+
+@media(max-width: 1000px) {
     .duyuru{
         display: none;
     }
@@ -132,10 +141,4 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.6
     .dyr{
         display:block;
     }
-    nav{
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.685) 100%);
-    }
-    }
-    @media(max-width: 991){
-        
     }
