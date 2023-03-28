@@ -55,7 +55,6 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.6
     padding: 1.5% 1.5%;
     height: 100%;
     float: right;
-    border-left:solid   whitesmoke;
     border-width: 5px;
     background-color: rgba(38, 179, 235, 0.849);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -116,10 +115,6 @@ nav{
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(135, 198, 214, 0.685) 100%);    
 }
 /* Telefon Ekran*/
-@media screen {
-    
-}
-
 @media(max-width: 1000px) {
     .duyuru{
         display: none;
